@@ -1,0 +1,57 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body{
+  display: grid;
+  height: 100vh;
+  place-items: center;
+}
+
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+
+.button{
+  border: 1px solid #536d88;
+  border-radius: 5px;
+  background-color: #53887a;
+  padding : 10px
+}
+
+.button:hover{
+  background-color: #536d88;
+  color: #fff;
+}
+.mistake{
+  color: rgb(181, 12, 12);
+  font-size: 20px;
+}
+.remaining{
+  color: rgb(16, 83, 10);
+  font-size: 20px;
+}
+.won{
+  color: rgb(16, 41, 112);
+  font-size: 20px;
+}
+.lost{
+  color: rgb(181, 12, 12);
+  font-size: 20px;
+}
+.correct{
+  color: rgb(10, 40, 172);
+  font-size: 25px;
+}
+.incorrect{
+  color: rgb(32, 14, 110);
+  font-size: 25px;
+}
